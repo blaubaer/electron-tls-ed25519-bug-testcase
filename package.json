@@ -1,0 +1,14 @@
+{
+    "name": "electron-tls-ed25519-bug-testcase",
+    "scripts": {
+        "server": "cross-env NODE_DEBUG=tls node server.js",
+        "client-node": "cross-env NODE_DEBUG=tls node client.js",
+        "client-electron": "cross-env NODE_DEBUG=tls electron client.js"
+    },
+    "type": "commonjs",
+    "license": "MIT",
+    "devDependencies": {
+        "cross-env": "^7.0.3",
+        "electron": "^34.0.1"
+    }
+}
